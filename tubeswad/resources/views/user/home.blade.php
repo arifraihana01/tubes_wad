@@ -61,13 +61,61 @@
                 <img src="https://image.freepik.com/free-vector/vaccine-concept-illustration_114360-5361.jpg"
                     height="250px" alt="">
             </div>
-            <div class="animate__animated animate__fadeInRightBig col-4 pt-5" style="text-align: justify">
+            
+            <div class="animate__animated animate__fadeInRightBig col-4 pt-5 border-bottom" style="text-align: justify">
                 <p>Vaksin merupakan antigen (mikroorganisma) yang diinaktivasi atau dilemahkan yang bila diberikan
                     kepada orang yang sehat untuk menimbulkan antibodi spesifik terhadap mikroorganisma tersebut,
                     sehingga bila kemudian terpapar, akan kebal dan tidak terserang penyakit. Bahan dasar membuat vaksin
                     tentu memerlukan mikroorganisma, baik virus maupun bakteri. Menumbuhkan mikroorganisma memerlukan
                     media tumbuh yang disimpan pada suhu tertentuMikroorganisma yang tumbuh kemudian akan dipanen,
                     diinaktivasi, dimurnikan, diformulasi dan kemudian dikemas.</p>
+            </div>
+            {{-- {!! $chart->container() !!}
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js" charset="utf-8"></script>
+            {!! $chart->script() !!} --}}
+            <div class="container mt-5 mb-5 pb-2 pt-2 border-bottom" style="text-align: justify">
+                <div style="text-align: center">
+                    <h3>Mengapa Harus <span style="color: forestgreen">Vaksin</span> ?</h3>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 g-2 mt-4 mb-2">
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="https://image.freepik.com/free-vector/man-face-mask-stop-warning-corona-virus-covid-19_10045-675.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Mencegah Penularan</h5>
+                          <p class="card-text">Vaksin COVID-19 sudah terbukti efektif untuk mencegah seseorang terinfeksi virus Corona.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="https://image.freepik.com/free-vector/cartoon-coronavirus-vaccine-illustration_23-2148849132.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Kekebalan Kelompok</h5>
+                          <p class="card-text">Mempercepat kekebalan kelompok <a href="https://id.wikipedia.org/wiki/Kekebalan_kelompok">(herd immunity)</a>.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="https://image.freepik.com/free-vector/group-young-people-posing-photo_52683-18823.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Melindungi Sekitar</h5>
+                          <p class="card-text">Dengan mengikuti vaksinasi Covid-19, kita tak hanya menyelamatkan diri sendiri, namun juga melindungi mereka yang rentan</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <div style="text-align: center">
+                    <p style="color: brown">Satu hal yang perlu diingat, vaksin bukanlah obat pandemi, melainkan upaya kita untuk membentengi diri dari efek virus penyebab Covid-19.</p>
+                </div>
+            </div>
+            <div class="container mt-2 mb-5 pb-2 pt-2" style="text-align: justify">
+                <h3 style="color: rgb(93, 116, 50);font-weight:bolder">Total Kasus <span style="color: red">COVID-19</span> di {{ $data[0] }}</h3>
+                <h5>Total positif : {{ $data[1] }}</h5>
+                <h5>Total sembuh : {{ $data[2] }}</h5>
+                <h5>Total meninggal : {{ $data[3] }}</h5>
+                <h5>Total yang sedang dirawat : {{ $data[4] }}</h5>
             </div>
         </div>
     </div>
