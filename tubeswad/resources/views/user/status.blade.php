@@ -102,8 +102,6 @@
                     @csrf
                     <input type="hidden" class="form-control" id="id" name="id" value="{{ auth()->user()->id }}"
                         readonly>
-                    <button type="submit" class="btn btn-danger"
-                        onclick="return confirm('Batalkan Pendaftaran Vaksin 2 ?')">Cancel Pendaftaran!</button>
                 </form>
 
                 @endif
