@@ -61,7 +61,7 @@
                 <img src="https://image.freepik.com/free-vector/vaccine-concept-illustration_114360-5361.jpg"
                     height="250px" alt="">
             </div>
-            
+
             <div class="animate__animated animate__fadeInRightBig col-4 pt-5 border-bottom" style="text-align: justify">
                 <p>Vaksin merupakan antigen (mikroorganisma) yang diinaktivasi atau dilemahkan yang bila diberikan
                     kepada orang yang sehat untuk menimbulkan antibodi spesifik terhadap mikroorganisma tersebut,

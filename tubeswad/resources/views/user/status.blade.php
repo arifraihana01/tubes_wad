@@ -94,7 +94,7 @@
                 <h3><span style="color:green;weight-font:bold;">Sudah Melaksanakan</span> Vaksin Pertama!</h3>
                 <h5>Sertifikat Vaksin Pertama : </h5>
                 <img src="{{ asset('storage/' . auth()->user()->sertif1) }}" style="height:450px;width:800px; " alt="">
-                <h5>Kepada Bpk/Ibu {{ auth()->user()->name }} dipersilakan untuk melakukan vaksin 1 pada,</h5>
+                <h5>Kepada Bpk/Ibu {{ auth()->user()->name }} dipersilakan untuk melakukan vaksin 2 pada,</h5>
                 <h6 style="font-weight: bolder; color:orange;">Tempat = Puskesmas Betung</h6>
                 <h6 style="font-weight: bolder; color:orange;">Tanggal = {{ auth()->user()->tanggal }}</h6>
                 <h6 style="font-weight: bolder;color:orange;">Waktu = {{ auth()->user()->time }} WIB</h6>

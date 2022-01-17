@@ -9,7 +9,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script src="https://kit.fontawesome.com/56a57c6a1e.js" crossorigin="anonymous"></script>
-    <title>Akun</title>
+    <title>Puskesmas Betung | Akun</title>
 </head>
 
 <body>
@@ -17,7 +17,8 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="/home">
                 <img src="https://drive.google.com/uc?export=view&id=1su9inODwIyw9md6PO7rHkQBx2dFPMYd2" alt=""
-                    width="30" height="24" class="d-inline-block align-text-top">Puskesmas Betung
+                    width="40" height="40" class="d-inline-block align-text-middle">
+                Puskesmas Betung
             </a>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -56,7 +57,7 @@
     <div class="row">
         <div class="animate__animated animate__fadeInLeft col-3">
             <div class="d-flex flex-column flex-shrink-0 p-3 bg-light" style="width: 280px;">
-                <span class="fs-4"><i class="far fa-user-circle"></i> Nama Lengkap</span>
+                <span class="fs-4"><i class="far fa-user-circle"></i> {{ auth()->user()->name }}</span>
                 <hr>
                 <ul class="nav nav-pills flex-column mb-auto">
                     <li class="nav-item">
@@ -92,7 +93,7 @@
 
 
     <div class="text-center">
-        <p class="fixed-bottom">&copy;2021 Copyright</p>
+        <p class="fixed-bottom">&copy;2021 Puskesmas Betung</p>
     </div>
 
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -175,7 +176,7 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-primary">Save changes</button>
+                        <button type="submit" class="btn btn-primary">Save Changes</button>
                     </div>
                 </form>
             </div>

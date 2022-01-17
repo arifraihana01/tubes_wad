@@ -50,7 +50,6 @@
                         <label for="password" class="form-label">Password</label>
                         <input type="password" class="form-control" id="password" name="password" required>
                     </div>
-                    <p>Belum Punya Akun? <a class="link-primary" href="/register">Register</a></p>
                     <button type="submit" class="btn btn-primary">Login</button>
                 </form>
             </div>
