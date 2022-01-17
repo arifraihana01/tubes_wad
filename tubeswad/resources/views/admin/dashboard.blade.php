@@ -156,11 +156,6 @@
                 <td>{{ $user->time }}</td>
                 <td>
                   <a class="badge bg-success border-0" type="button" href="/vaccinated1/{{ $user->id }}"><i class="far fa-check-square"></i></a>
-                  <form class="col d-inline-block" action="/canceladmin1" method="post">
-                    @csrf
-                    <input type="hidden" class="form-control" id="id" name="id" value="{{ $user->id }}" readonly>
-                    <button class="badge bg-danger border-0" type="submit" onclick="return confirm('Batalkan Jadwal Vaksin 2 ?')"><i class="fas fa-user-minus"></i></button>
-                  </form>
                 </td>
               </tr>
               @endif
