@@ -54,7 +54,7 @@ class PendaftaranController extends Controller
         $data->alamat = $request->alamat;
         $data->status = 'konfirmasi';
         $data->save();
-        return redirect('/home');
+        return redirect('/pendaftaran');
     }
     public function updatekonfirmasi(Request $request)
     {
